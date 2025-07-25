@@ -1,6 +1,6 @@
-export default function Landing() {
+export default function Bio() {
 
     return (
-        <>Landing</>
+        <>Bio</>
     )
 }

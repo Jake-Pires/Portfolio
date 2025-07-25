@@ -9,14 +9,14 @@ const navigationLinks = [
     ['/bio', 'Bio'],
 ]
 
-export default function Bios() {
+export default function Pages() {
 
     return (
         <>
-            <Header links={navigationLinks} />
+            <Header title="Jake Nobre" links={navigationLinks} />
             <Routes>
                 <Route path="/home" element={<Home />} />
-                <Route path="/pag" element={<Bio />} />
+                <Route path="/bio" element={<Bio />} />
             </Routes>
         </>
     );
